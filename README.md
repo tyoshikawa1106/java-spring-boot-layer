@@ -1,10 +1,15 @@
 # java-spring-boot-layer
-##Run
+###Create Project
+```
+$ mvn -B archetype:generate -DgroupId=com.example -DartifactId=SpringBootLayer -Dversion=1.0.0-SNAPSHOT -DarchetypeArtifactId=maven-archetype-quickstart
+```
+
+###Run
 ```
 $ mvn spring-boot:run
 ```
 
-##Run Jar File
+###Run Jar File
 ```
 $ mvn clean
 $ mvn package
